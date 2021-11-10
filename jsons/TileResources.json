@@ -1,0 +1,67 @@
+[
+	{
+		"name": "Horses",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Desert"],
+		"production": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1},
+		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 6},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
+	
+	{
+		"name": "Iron",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
+	
+	{
+		"name": "Coal",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 2},
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+	
+	{
+		"name": "Oil",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
+		"production": 1,
+		"improvement": "Oil well",
+		"improvementStats": {"production": 3},
+		"uniques": ["Deposits in [Water] tiles always provide [4] resources"],
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+	
+	{
+		"name": "Aluminum",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 2},
+		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+	{
+		"name": "Uranium",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Snow","Forest","Desert","Marsh","Grassland"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 2},
+		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	}
+]
