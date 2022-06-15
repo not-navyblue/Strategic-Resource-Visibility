@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Oil well",
+        "turnsToBuild": 9,
+        "techRequired": "Mining",
+	"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
+	"shortcutKey": "W"
+    }
+]
